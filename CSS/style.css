@@ -11,6 +11,32 @@
 
 
 /* DimaSosiska */
+footer{
+    background-color: #2A514C;
+    padding: 0.5% 6%;
+}
+.footer_had{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fthad_texst>h2{
+    margin: 0;
+}
+.fthad_br{
+    height: 1px;
+    background-color: rgb(126, 126, 126);
+    width: 1600px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
