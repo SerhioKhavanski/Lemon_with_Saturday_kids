@@ -29,8 +29,25 @@
 
 
 /* NONNNNNNNOCHKA */
+.fd{
+    text-align: center;
+}
+.gf{
+    text-align: center;
+}
 
+.img{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    gap: 5vh;
+}
 
+.img>img{
+    width: 45%;
+   
+}
 
-
-
+.CompanyPages{
+    margin-top: 5%;
+}
