@@ -1,3 +1,9 @@
+*{
+    font-family: BeVietnamPro;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Serhio */
 
 
@@ -14,21 +20,73 @@
 footer{
     background-color: #2A514C;
     padding: 0.5% 6%;
+    margin: 0;
 }
 .footer_had{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.fthad_texst{
+    width: 50%;
+}
 .fthad_texst>h2{
     margin: 0;
+    margin-left: 10%;
+}
+.fthad_all_a{
+    margin-right: 10%;
+}
+.fthad_all_a_content>a{
+    border: 1px solid yellow;
+    padding: 5px;
 }
 .fthad_br{
+    margin-top: 10px;
     height: 1px;
     background-color: rgb(126, 126, 126);
-    width: 1600px;
+    width: 200%;
 }
-
+.footer_menu_content{
+    display: flex;
+    justify-content: space-between;
+}
+.ftmc_card>h2{
+    color: yellow;
+    margin-bottom: 30%;
+}
+.ftmc_card>h3{
+    margin-top: 20%;
+}
+.ftmen{
+    width: 100%;
+}
+.ftdog{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+}
+.ftdog_yellow{
+    display: flex;
+    color: yellow;
+}
+@media (max-width:425px){
+    .fthad_all_a{
+        display: none;
+    }
+    .fthad_texst{
+        width: 100%;
+    }
+    .ftmc_card>h3{
+        display: none;
+    }
+    .ftmc_card>h2{
+        margin-bottom: 5%;
+    }
+    .footer_menu_content{
+        display: block;
+    }
+}
 
 
 
