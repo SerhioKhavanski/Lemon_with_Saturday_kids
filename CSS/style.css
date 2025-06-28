@@ -5,8 +5,87 @@
     box-sizing: border-box;
 }
 /* Serhio */
+@font-face {
+    font-family: "BeVietnamPro";
+    src: url(../font/BeVietnamPro-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(../font/Outfit-Regular.ttf);
+    font-weight: 400;
+}
 
+*{
+    font-family: BeVietnamPro;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+h1{
+
+}
+p{
+    font-family:BeVietnamPro;
+    font-size: .8vw;
+}
+.pre-header-info>p{
+    color: white;
+    text-align: center;
+}
+.pre-header-info{
+    padding: 1%;
+    background-image: url(../img/IMAGE.png);
+    background-size: cover;
+}
+.burger-checkbox{
+    display: none;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    padding-inline:10% ;
+    justify-content: space-between;
+    margin-top: 2%;
+    align-items: center;
+}
+.menu-item{
+    text-decoration: none;
+    color:#1C2436;
+    font-size: 0.7vw;
+}
+.menu-list>li:last-child{
+    margin-left: 50%;
+}
+.last{
+    border:1px solid #E8E7EE;
+    padding: 12% 12%;
+    display: inline-block;
+    width: max-content;
+}
+.pre-info-header{
+    font-size: 1vw;
+    text-align: center;   
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 3vw;
+}
+.after-info-header{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 0.8vw;
+}.header-container{
+    padding-inline: 10%;
+}
+.header-container>img{
+    width: 100%;
+}
 
 
 /* Dimon */
@@ -100,6 +179,41 @@ footer{
 
 
 /* Oleksei */
+.LemonTemplate{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.LemonTemplate>p{
+    font-family: Outfit;
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+.LemonTemplate>h2{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 2vw;
+}
+.img1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17%;
+}
+
+
+@media(max-width: 768px){
+    .img1{
+        display: inline;
+        margin-left: 17%;
+    }
+    .img2{
+        margin-left: 5%;
+    }
+}
 
 
 
@@ -118,3 +232,6 @@ footer{
 
 
 
+
+
+/* Aleksey2 */
